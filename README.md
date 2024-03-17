@@ -12,15 +12,17 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Coding rules
 
-Strict null checks are enabled for Typescript, e.g. `const myConst: MyType = null` is not allowed.
+Strict null checks are enabled for Typescript, e.g. `const myConst: MyType = null` results in a compiler error.
 
-The Angular App is standalone, e.g. not using modules. You should opt-in for using modules as soon as the app gets bigger.
+The App is not using Angular modules. You should opt-in for using modules as soon as the app gets bigger.
 
 ## Linting and Formatting
 
-This project uses `eslint` and `prettier` for linting and formatting. Formatting using prettier is part of the linting.
+This project uses `eslint` and `prettier` for linting and formatting. Formatting via prettier is part of the linting for html and typescript files.
 
-For VS Code, there are already settings included to run linting and formatting on save. For Intellj, you have to enable it in the settings. Make sure to have the extension/plugins installed in your IDE.
+For VS Code, there are already settings included to run linting and formatting on save. For Intellj, you have to enable it in the settings. Make sure to have the extensions/plugins installed in your IDE.
+
+`Husky` is used together with `lint-staged` to format and lint staged files on commit. If linting fails and can not be fixed automatically, the commit will fail.
 
 ## Build
 
