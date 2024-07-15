@@ -1,6 +1,6 @@
-# An Angular 17 starter blueprint project
+# An Angular 18 starter blueprint project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0. Additionally, tools, config and VS Code Settings have been added to ensure a high coding quality.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli). Additionally, tools, config and VS Code Settings have been added to ensure a high coding quality.
 
 ## Development server
 
