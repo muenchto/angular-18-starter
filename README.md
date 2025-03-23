@@ -1,4 +1,4 @@
-# An Angular 18 starter blueprint project
+# An Angular 19 starter blueprint project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli). Additionally, tools, config and VS Code Settings have been added to ensure a high coding quality.
 
@@ -14,7 +14,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Strict null checks are enabled for Typescript, e.g. `const myConst: MyType = null` results in a compiler error.
 
-The App is not using Angular modules. You should opt-in for using modules as soon as the app gets bigger.
+The App is not using Angular modules but standalone by default. You should opt-in for using modules as soon as the app gets bigger.
 
 ## Linting and Formatting
 
