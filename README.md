@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli). Additionally, tools, config and VS Code Settings have been added to ensure a high coding quality.
 
+It uses `pnpm` as package manager.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -32,4 +34,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Note that code scafolding will not create test files on default.
+Note that code scaffolding will not create test files on default.
